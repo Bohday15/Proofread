@@ -6,7 +6,7 @@
 	<beaconType id="eg_space_rift_jester" global="true">
 		<color r="160" g="100" b="100" a="1"/>
 		<unvisitedTooltip>Miracle Seekers have informed you that there is a rift in space at these coordinates, which you must try to close.</unvisitedTooltip>
-		<visitedTooltip>Here lies the rift in space that you have already visited.</visitedTooltip>
+		<visitedTooltip>Here is the rift in space that you have already visited.</visitedTooltip>
 	</beaconType>
 	<preventQuest/>
 	<preventFleet/>
