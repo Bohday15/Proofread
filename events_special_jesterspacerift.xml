@@ -6,7 +6,7 @@
 	<beaconType id="eg_space_rift_jester" global="true">
 		<color r="160" g="100" b="100" a="1"/>
 		<unvisitedTooltip>Miracle Seekers have informed you that there is a rift in space at these coordinates, which you must try to close.</unvisitedTooltip>
-		<visitedTooltip>Here is the rift in space that you have already visited.</visitedTooltip>
+		<visitedTooltip>Here lies the rift in space that you have already visited.</visitedTooltip>
 	</beaconType>
 	<preventQuest/>
 	<preventFleet/>
@@ -18,13 +18,13 @@
 	<jumpEvent>SPACE_RIFT_CLEAR_MUSIC</jumpEvent>
 	<playMusic>music_spaceriftevent</playMusic>
 	<metaVariable name="juke_spaceriftevent" op="set" val="1"/>
-	<text>The atmosphere on your ship changes dramatically as soon as you see a space-time anomaly near the uninhabited ocean planet around which this beacon was built. A minute after arrival, you receive a transmission requesting a strange message that seems to have come from the anomaly itself. You remember that Miracle Seekers asked you to carry out the request of someone inside the space rift so that it would close.</text>
+	<text>The atmosphere on your ship changes dramatically as soon as you notice a space-time anomaly near the uninhabited ocean planet that you are orbiting. A minute after arrival, you receive a strange transmission request that seems to have come from the anomaly itself. You remember that Miracle Seekers asked you to carry out the request of someone inside the space rift in order to close it.</text>
 	<img back="EG_SPACE_RIFT_BG" planet="NONE"/>
 
 	<choice hidden="true">
 		<text>Accept the transmission.</text>
 		<event>
-			<text>You accept the transmission, and a pre-recorded message begins to play in your piloting. You hear a synthesized male voice that clearly does not belong to a living being. "Finally, someone is interested in me. I managed to escape from my own decaying universe, but I am stuck in the space between worlds, like all those who tried to escape from my "homeland" with me. Every year there are more and more of them, and there is very little room for all of us in this swamp between universes, and I'm tired of their company. Whoever you are, I propose a deal: I will redirect these creatures to you, and you deal with them in any way you see fit; I know how to pay. If you want to carry out this simple task, just send the message “I accept” to this space-time rift. Make sure you are strong enough to face these creatures - I take no pleasure in seeing more suffering than there already is."</text>
+			<text>You accept the transmission, and a pre-recorded message begins to play. You hear a synthesized male voice that clearly does not belong to a living being. "Finally, someone took interest in me. I managed to escape from my own decaying universe, but I am stuck in the space between worlds, like all those who tried to escape from the "homeland" with me. with each year our numbers grow. Now, there is very little room in this swamp between universes. They are tired of my company and so am I. Whoever you are, I suggest a deal: I will redirect these creatures to you. Deal with them in any way you see fit; I know how to pay. If you choose to carry out this task, just send the message “I accept” to this space-time rift. Make sure you are strong enough to face these creatures - I take no pleasure in seeing more suffering than there already is."</text>
 
 			<choice hidden="true">
 				<text>Send the message "I accept."</text>
@@ -36,7 +36,7 @@
 						<event load="EG_SPACE_RIFT_GIFT_FROM_JESTER"/>
 					</choice>
 					<choice hidden="true">
-						<text>Посмотреть на него.</text>
+						<text>Observe it.</text>
 						<event load="EG_SPACE_RIFT_BOSSES"/>
 					</choice>
 				</event>
@@ -87,7 +87,9 @@
 </event>
 
 <event name="EG_SPACE_RIFT_GIFT_FROM_JESTER">
-	<text>As you watch the rift in space expand, you begin to hear a slight buzzing in your ears. A voice appears in your head, painfully similar to the one that spoke to you earlier. "I am amused by the loyalty of the Renegades! This time, I have decided to give you a small gift. You can choose the creature whose death you desire most. I will ensure its appearance from the rift in the proper manner - you need only think of it." The buzzing in your ears disappears, and everything returns to normal, but no one is moving toward you from the anomaly. You ponder the words of the voice in your head and decide...</text>
+	<text>As you watch the rift in space expand, you begin to hear a slight buzzing in your ears. A voice appears in your head, painfully similar to the one that spoke to you earlier. "I am amused by the loyalty of the Renegades! This time, I have decided to give you a small gift. You can choose the creature whose death you desire most. I will ensure its appearance from the rift in the proper manner - you need only think of it."
+		
+		The buzzing in your ears disappears, and everything returns to normal, but no one is moving toward you from the anomaly. You ponder the words of the voice in your head and decide...</text>
 	<metaVariable name="jester_local_wins" op="set" val="0"/>
 	<choice hidden="true">
 		<text>Think about the madman Robur.</text>
@@ -141,16 +143,18 @@
 
 <event name="SPACE_RIFT_DREAMSEEKER">
 	<ship load="EG_ENEMY_DREAMSEEKER" hostile="false"/>
-	<text>Suddenly, you feel very good. It seems that all the hardships of life are gradually receding, and this feeling intensifies as an unusual ship approaches you. Its captain immediately contacts you, and he seems almost too blissful for a follower of some cult. "Hello, child. We are the Church of the All-Desired Dream, the savior of Dreams and the reliever of our fates, the goddess of Dreaming... And who are you, child? What are you doing here, and is your appearance connected with our liberation from the clutches of that tyrant? However, it is not so important for us to know whether you are involved in this... Better let us go in peace. Do not provoke an investigation, we are protected by Her gaze..." It becomes clear to you that this ship attacked you with some kind of psi-radiation, making you feel blissful in order to distract you. Realizing this fact breaks the spell, and you can think clearly again, but the fanatics have not yet figured this out. Soon they will jump away, so you need to act quickly.</text>
+	<text>Suddenly, you feel unusually good. It seems as if all the hardships of life are slowly fading away, and this feeling only intensifies as an unfamiliar ship approaches. Its captain contacts you at once, speaking with a bliss that feels almost excessive, even for a follower of some cult. “Greetings, child. We are the Church of the All-Desired Dream, servants of the Goddess of Dreaming, the savior of dreams and the reliever of fates… And who might you be, child? What brings you here? And is your appearance connected to our liberation from the tyrant’s grasp? In truth, it matters little whether you played a role in this… Simply let us leave in peace. Do not provoke an investigation - Her gaze protects us.”
+		
+		Only then do you realize what has happened: the ship hit you with some kind of psi-radiation, filling you with bliss to keep you distracted. The realization shatters the illusion, and your thoughts clear instantly — though the fanatics have not noticed the change yet. They will jump away soon, so you must act quickly.</text>
 	<choice hidden="true">
 		<text>Attack them for trying to take control of your mind.</text>
 		<event>
-			<text>"Wh-what? You... it didn't work? Damn... Oh, All-Desired Dream, ease our suffering..." It seems the fanatics are starting to pray. You're not sure what the outcome of their prayers might be, but you have a bad feeling about it...</text>
+			<text>"Wh-what? You... it didn't work? Damn it... Oh, All-Desired Dream, ease our suffering..." It seems the fanatics are starting to pray. You're not sure what the outcome of their prayers might be, but you have a bad feeling about it...</text>
 			<ship hostile="true"/>
 			<triggeredEvent event="DREAMSEEKER_PRAYER_ENEMY" seeded="false" loops="5" time="30" thisFight="true">
                 <triggeredEventBox load="DEFAULT_TIMER" pos="combat">
 					<warning time="5.0" flash="true"/>
-                    <tooltip>Followers of the Church of the All-Desired Dream gather for communal prayer! The reason for their appeals to the Dreamer is unclear!</tooltip>
+                    <tooltip>Followers of the Church of the All-Desired Dream gather for communal prayer! The reason behind their appeals to the Dreamer is unclear!</tooltip>
                 </triggeredEventBox>
             </triggeredEvent>
 			<choice hidden="true">
@@ -182,7 +186,7 @@
 <event name="DESTROYED_EG_ENEMY_DREAMSEEKER">
 	<text>You destroyed fanatics' ship. It seems that the goddess did not save her flock, nor did she take revenge on you for their murder, if she even existed at all.
 	
-	As you order the ship to be dismantled for scrap, you feel a slight dizziness. The source of this dizziness appears to be a vessel pulsing with some kind of energy. Without thinking twice, you take it to your ship, as it was probably used by the fanatics to try to take control of your mind. After that, the dizziness disappears.</text>
+	As you order the ship to be dismantled for scrap, you feel a slight dizziness. The source of this dizziness appears to be a vessel pulsing with some kind of energy. Without thinking twice, you take it aboard your ship. It was probably used by the fanatics to try to take control of your mind. As you leave, the dizziness slowly subsides.</text>
 	<autoReward level="MED">standard</autoReward>
 	<augment name="EG_DREAM_SEEKER_HEART"/>
 	<choice hidden="true">
@@ -191,9 +195,9 @@
 	</choice>
 </event>
 <event name="DEAD_CREW_EG_ENEMY_DREAMSEEKER">
-	<text>You have defeated the fanatics. Exploring the interior of this ship, you find many interesting things that tell you more about their so-called goddess - for example, that she almost seized power over the entire universe and nearly caused a large-scale genocide, which was later called the Dream Crisis. This fact makes you feel uneasy, but your thoughts are suddenly interrupted by a rumbling from the depths of the ship, which makes you feel a little dizzy.
+	<text>You have defeated the fanatics. Exploring the interior of their ship you discover many interesting things that tell you more about their so-called goddess - for example, that she once almost seized control over the entire universe and nearly caused a large-scale genocide, later known as the Dream Crisis. The realization makes you feel uneasy, but your thoughts are suddenly interrupted by a rumbling from the depths of the ship, which makes you feel a little dizzy.
 	
-	Following the rumbling and entering a large room, you come across a strange small vessel emitting some kind of energy. Without thinking twice, you take it to your ship, as it was probably used by the fanatics to try to take control of your mind. After that, the dizziness disappears.</text>
+	Following the rumbling and entering a large room, you come across a strange small vessel emitting some kind of energy. Without thinking twice, you take it aboard your ship. It was probably used by the fanatics to try to take control of your mind. As you leave, the dizziness slowly subsides.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<augment name="EG_DREAM_SEEKER_HEART"/>
 	<choice hidden="true">
@@ -202,9 +206,9 @@
 	</choice>
 </event>
 <event name="SPACE_RIFT_DREAMSEEKER_WIN">
-	<text>After a while, the space anomaly seems to become less active and even closes slightly. A strange-looking automatic drone in red and white colors with a gray eye flies up to you. You vaguely recognize it as one of the Miracle Seekers' delivery drones, but you don't know why this particular drone looks the way it does. It plays a pre-recorded message in the same synthetic male voice you heard earlier. 
+	<text>After a while, the space anomaly seems to become less active and smaller. A strange-looking automatic drone in red and white colors with a gray eye flies up to you. You vaguely recognize it as one of the Miracle Seekers' delivery drones, but you don't know why this particular drone looks the way it does. It plays a pre-recorded message in the same synthetic male voice you heard earlier. 
 	
-	"Ha, they really got on my nerves with their endless sermons and prayers, undermining the unique atmosphere of my abode with their sectarian nonsense. You may have questions about the Dreamer and her cult, but the fact is that she has been dead for a long time and can hardly help her followers, and those "miracles" that you may have witnessed during the battle with them are nothing more than pathetic attempts by her barely living soul to cling to something material. In any case, don't fill your head with such nonsense; there are no gods in your universe anyway... at least none that I know of. Now... Farewell and depart." Drone gives you the reward and self-destructs. Its debris dissolves into the vacuum of space, leaving you alone with your confusion. You decide to fly away from here.</text>
+	"Ha, they really got on my nerves with their endless sermons and prayers, poisoning the unique atmosphere of my abode with their sectarian nonsense. You may have questions about the Dreamer and her cult, but the fact is that she has been dead for a long time and can hardly help her followers. Any "miracles" that you may have witnessed during the battle with them were nothing more than pathetic attempts by her barely living soul to cling to something material. In any case, don't fill your head with such nonsense; there are no gods in your universe anyway... at least none that I'm aware of. Now... Farewell and be gone." Drone gives you the reward and self-destructs. Its debris dissolve into the vacuum of space, leaving you alone with your confusion. You decide to fly away from here.</text>
 	<changeBackground>EG_SPACE_RIFT_BG_WIN</changeBackground>
 	<unlockCustomShip silent="false">PLAYER_EG_DREAMSEEKER</unlockCustomShip>
 	<item_modify>
