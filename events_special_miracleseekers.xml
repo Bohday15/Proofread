@@ -17,8 +17,8 @@
 <event name="EG_MIRACLE_SEEKERS_STATION" unique="true">
 	<beaconType id="eg_miracle_seekers" global="true">
 		<color r="105" g="155" b="255" a="1"/>
-		<unvisitedTooltip>This is where the station of the Miracle Seekers is located. They are broadcasting a request to find mercenaries.</unvisitedTooltip>
-		<visitedTooltip>This was the location of the Miracle Seekers organization. It seems they have now left this sector. I wonder how many mercenaries responded to their request to search for Miracles?</visitedTooltip>
+		<unvisitedTooltip>This is where the station of the Miracle Seekers is located. They are broadcasting a call for mercenaries.</unvisitedTooltip>
+		<visitedTooltip>This was the location of the Miracle Seekers organization. It seems they have now left this sector. You wonder how many mercenaries responded to their request to search for Miracles.</visitedTooltip>
 	</beaconType>
 	<preventQuest/>
 	<preventFleet/>
@@ -30,7 +30,7 @@
 	<jumpEvent>EG_CLEAR_MUSIC</jumpEvent>
 	<playMusic>music_miracleseekers</playMusic>
 	<ship load="EG_ENEMY_MIRACLE_SEEKERS" hostile="false"/>
-	<text>As soon as you arrive at this beacon, you immediately see a large station that you have never heard of. Its huge super shield and powerful weapons make you feel uncomfortable around it. You receive a call request from the station, and a woman with what appear to be deer antlers on her head and very pale skin appears on the communicator screen. Her almost fantasy-like appearance mesmerizes you, but you come to your senses after she starts talking. "The Miracle Seekers welcome the Renegade ship. Do not be afraid, we are not going to attack you, and you are safe with us. We are looking for mercenaries willing to help us. Would you like to know more?"</text>
+	<text>As soon as you arrive at this beacon, you immediately see a large station that you have never heard of. Its huge super shield and powerful weapons make you feel a bit threatened. You receive a call request from the station, and a woman with what appear to be deer antlers on her head and very pale skin appears on the communicator screen. Her almost fantasy-like appearance mesmerizes you, but you come to your senses after she starts talking. "The Miracle Seekers welcome the Renegades. Do not be afraid, we have no intention of attacking you. You are safe with us. We are looking for mercenaries willing to help us. Would you like to know more?"</text>
 	<img back="EG_MIRACLE_SEEKERS_BG" planet="NONE"/>
 	
 	<choice hidden="true" req="miracle_seekers_metarep" lvl="0" max_lvl="0" blue="false">
@@ -38,7 +38,7 @@
 		<event>
 			<text>"Let me start with the basics: we, the Miracle Seekers, are an organization that collects Miracles and artifacts from all corners of our universe in order to preserve its history and prevent it from being rewritten. Miracles are considered to be any physical objects that have historical value, or are simply so rare or powerful that their free use could lead to dire consequences. Generally speaking, we find and store these objects at our station, where they are completely safe thanks to our impenetrable defenses."
 			
-			"We are not affiliated with your cluster and have no connection to your universes. In our home world, due to a catastrophic event, we were forced to use an emergency protocol involving one of our artifacts, which transported us to this universe without our consent through a certain space-time rift. At the moment of our station's transfer from our home universe to this one, we managed to scatter many Miracles throughout the sector, which we are unable to locate on our own at this time. This is where you could help us."
+			"We are not affiliated with your cluster and have no connection to your universes. On our homeworld, a catastrophic event forced us to activate an emergency protocol using one of our artifacts, which transported us to this cluster without our consent through a space-time rift. At the moment our station was transferred from our home universe to this one, we have had many of our Miracles scatered throughout the sector. We are currently unable to locate them on our own. This is where you could help us."
 			
 			"All you need to do is take on the task of finding a specific artifact, obtain it by any means available, and give it to our delivery drone. It's very simple; in fact, we would do it ourselves if we could leave the station without fear of getting caught up in conflicts at the Multiverse level. I know it sounds strange and suspicious, but it's the absolute truth. We don't want to interact with your universe in any way, even at the risk of losing our particularly important artifacts."
 			
