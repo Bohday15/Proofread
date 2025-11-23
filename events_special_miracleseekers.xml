@@ -40,14 +40,14 @@
 			
 			"We are not affiliated with your cluster and have no connection to your universes. On our homeworld, a catastrophic event forced us to activate an emergency protocol using one of our artifacts, which transported us to this cluster without our consent through a space-time rift. At the moment our station was transferred from our home universe to this one, we have had many of our Miracles scatered throughout the sector. We are currently unable to locate them on our own. This is where you could help us."
 			
-			"All you need to do is take on the task of finding a specific artifact, obtain it by any means available, and give it to our delivery drone. It's very simple; in fact, we would do it ourselves if we could leave the station without fear of getting caught up in conflicts at the Multiverse level. I know it sounds strange and suspicious, but it's the absolute truth. We don't want to interact with your universe in any way, even at the risk of losing our particularly important artifacts."
+			"All you need to do is take on the task of finding a specific artifact, obtain it by any means available, and give it to our delivery drone. It's very simple; in fact, we would do it ourselves if we could leave the station without fear of getting caught up in conflicts of Multiversal level. We don't want to interact with your universe in any way, even at the risk of losing our precious artifacts."
 			
 			"So, are you ready to carry out a simple task?"</text>
 
 			<choice>
 				<text>Agree to help them.</text>
 				<event>
-					<text>"Excellent. You may dock with our station for further discussion. We guarantee the safety and well-being of your life."</text>
+					<text>"Excellent. You may dock with our station for further discussion. We guarantee the safety and well-being."</text>
 					<choice>
 						<text>Begin docking with the station.</text>
 						<event load="MIRACLE_SEEKERS_BEFORE_LOBBY_BEFORE_THREAD"/>
@@ -58,7 +58,7 @@
 			<choice hidden="true">
 				<text>Reject their request.</text>
 				<event>
-					<text>You are not going to work as some kind of mercenary for some strange organization you know nothing about. The woman looks sad, but she understands your position. "Okay, never mind. We'll send you some supplies to make up for taking up your time. May your journey be blessed by the radiance of the Golden Spikelet." A few seconds later, a delivery drone flies over from the station and drops off some resources. I wonder what kind of adventure would have awaited you if you had accepted their job?</text>
+					<text>You are not going to work as some kind of mercenary for some strange organization you know nothing about. The woman seems sad, but she says she understands your position. "Okay, never mind. We'll send you some supplies to make up for taking up your time. May your journey be blessed by the radiance of the Golden Spikelet." A few seconds later, a delivery drone flies over from the station and drops off some resources. I wonder what kind of adventure would have awaited you if you had accepted their job?</text>
 						<item_modify>
 							<item type="fuel" min="1" max="2"/>
 							<item type="scrap" min="15" max="15"/>
