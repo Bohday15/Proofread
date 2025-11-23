@@ -24,7 +24,7 @@
 	<choice hidden="true">
 		<text>Accept the transmission.</text>
 		<event>
-			<text>You accept the transmission, and a pre-recorded message begins to play. You hear a synthesized male voice that clearly does not belong to a living being. "Finally, someone took interest in me. I managed to escape from my own decaying universe, but I am stuck in the space between worlds, like all those who tried to escape from the "homeland" with me. with each year our numbers grow. Now, there is very little room in this swamp between universes. They are tired of my company and so am I. Whoever you are, I suggest a deal: I will redirect these creatures to you. Deal with them in any way you see fit; I know how to pay. If you choose to carry out this task, just send the message “I accept” to this space-time rift. Make sure you are strong enough to face these creatures - I take no pleasure in seeing more suffering than there already is."</text>
+			<text>You accept the transmission, and a pre-recorded message begins to play. You hear a synthesized male voice that clearly does not belong to a living being. "Finally, someone took interest in me. I managed to escape from my own decaying universe, but I am stuck in the space between worlds, like all those who tried to escape from the "homeland" with me. with each year our numbers grow. Now, there is very little room in this swamp between universes. They are tired of my company and so am I. Whoever you are, I suggest a deal: I will redirect these creatures to you. Deal with them in any way you see fit; I know how to pay. If you choose to carry out this task, just send the message "I accept” to this space-time rift. Make sure you are strong enough to face these creatures - I take no pleasure in seeing more suffering than there already is."</text>
 
 			<choice hidden="true">
 				<text>Send the message "I accept."</text>
@@ -143,9 +143,9 @@
 
 <event name="SPACE_RIFT_DREAMSEEKER">
 	<ship load="EG_ENEMY_DREAMSEEKER" hostile="false"/>
-	<text>Suddenly, you feel unusually good. It seems as if all the hardships of life are slowly fading away, and this feeling only intensifies as an unfamiliar ship approaches. Its captain contacts you at once, speaking with a bliss that feels almost excessive, even for a follower of some cult. “Greetings, child. We are the Church of the All-Desired Dream, servants of the Goddess of Dreaming, the savior of dreams and the reliever of fates… And who might you be, child? What brings you here? And is your appearance connected to our liberation from the tyrant’s grasp? In truth, it matters little whether you played a role in this… Simply let us leave in peace. Do not provoke an investigation - Her gaze protects us.”
+	<text>Suddenly, you feel unusually good. It seems as if all the hardships of life are slowly fading away, and this feeling only intensifies as an unfamiliar ship approaches. Its captain contacts you at once, speaking with a bliss that feels almost excessive, even for a follower of some cult. "Greetings, child. We are the Church of the All-Desired Dream, servants of the Goddess of Dreaming, the savior of dreams and the reliever of fates… And who might you be, child? What brings you here? And is your appearance connected to our liberation from the tyrant’s grasp? In truth, it matters little whether you played a role in this… Simply let us leave in peace. Do not provoke an investigation - Her gaze protects us.”
 		
-		Only then do you realize what has happened: the ship hit you with some kind of psi-radiation, filling you with bliss to keep you distracted. The realization shatters the illusion, and your thoughts clear instantly — though the fanatics have not noticed the change yet. They will jump away soon, so you must act quickly.</text>
+		Only then do you realize what has happened: the ship hit you with some kind of psi-radiation, filling you with bliss to keep you distracted. The realization shatters the illusion, and your thoughts clear instantly - though the fanatics have not noticed the change yet. They will jump away soon, so you must act quickly.</text>
 	<choice hidden="true">
 		<text>Attack them for trying to take control of your mind.</text>
 		<event>
@@ -369,7 +369,7 @@
 </event>
 
 <event name="DESTROYED_EG_ENEMY_GEM_1">
-	<text>It seems you’ve dealt enough damage to the crystalline ship. Although its hull remained mostly intact, the giant central crystal suddenly ruptured while charging its next beam. The resulting explosion released a monstrous surge of energy, tearing apart the rest of the vessel in an instant. Hundreds of crystal shards shoot outward in every direction, yet somehow they all miss you as they scatter through space. You collect the largest fragments, hoping they’ll fetch a high price later. Among the debris, you also recover a few other resources that survived the blast. Along with them, you discover a small frame containing a photograph of three Crystalline-Sentinels — one of whom was the captain of the ship you just destroyed. The caption reads: "The Great Brothers, gem cutters of the School of Light Refraction. One history, one blood — forever."</text>
+	<text>It seems you’ve dealt enough damage to the crystalline ship. Although its hull remained mostly intact, the giant central crystal suddenly ruptured while charging its next beam. The resulting explosion released a monstrous surge of energy, tearing apart the rest of the vessel in an instant. Hundreds of crystal shards shoot outward in every direction, yet somehow they all miss you as they scatter through space. You collect the largest fragments, hoping they’ll fetch a high price later. Among the debris, you also recover a few other resources that survived the blast. Along with them, you discover a small frame containing a photograph of three Crystalline-Sentinels - one of whom was the captain of the ship you just destroyed. The caption reads: "The Great Brothers, gem cutters of the School of Light Refraction. One history, one blood - forever."</text>
 	<autoReward level="LOW">standard</autoReward>
 	<augment name="EG_GEM_SHARDS"/>
 	<choice hidden="true">
@@ -407,7 +407,7 @@
 	</choice>
 </event>
 <event name="DESTROYED_EG_ENEMY_GEM_2">
-	<text>It seems you’ve dealt enough damage to the crystalline ship. Although its hull remained mostly intact, the giant central crystal suddenly ruptured while charging its next beam. The resulting explosion released a monstrous surge of energy, tearing apart the rest of the vessel in an instant. Hundreds of crystal shards shoot outward in every direction, yet somehow they all miss you as they scatter through space. You collect the largest fragments, hoping they’ll fetch a high price later. Among the debris, you also recover a few other resources that survived the blast. Along with them, you discover a small frame containing a photograph of three Crystalline-Sentinels — one of whom was the captain of the ship you just destroyed. The caption reads: "The Great Brothers, gem cutters of the School of Light Refraction. One history, one blood — forever."</text>
+	<text>It seems you’ve dealt enough damage to the crystalline ship. Although its hull remained mostly intact, the giant central crystal suddenly ruptured while charging its next beam. The resulting explosion released a monstrous surge of energy, tearing apart the rest of the vessel in an instant. Hundreds of crystal shards shoot outward in every direction, yet somehow they all miss you as they scatter through space. You collect the largest fragments, hoping they’ll fetch a high price later. Among the debris, you also recover a few other resources that survived the blast. Along with them, you discover a small frame containing a photograph of three Crystalline-Sentinels - one of whom was the captain of the ship you just destroyed. The caption reads: "The Great Brothers, gem cutters of the School of Light Refraction. One history, one blood - forever."</text>
 	<autoReward level="LOW">standard</autoReward>
 	<augment name="EG_GEM_SHARDS"/>
 	<choice hidden="true">
@@ -427,7 +427,7 @@
 <event name="SPACE_RIFT_GEM_2_WIN">
 	<text>After a while, the space anomaly seems to become less active and smaller. A strange-looking automatic drone in red and white colors with a gray eye flies up to you. You vaguely recognize it as one of the Miracle Seekers' delivery drones, but you don't know why this particular drone looks the way it does. It plays a pre-recorded message in the same synthetic male voice you heard earlier. 
 	
-	“How sad, isn't it? Well, he deserved his death, and he accepted it with dignity. I can't say the same about his biological brothers, who still cause me a lot of trouble, but now, dealing with them will be much easier. Thank you, Renegade, I'll take care of the rest myself. Farewell and depart." The drone gives you the reward and self-destructs. Its debris dissolve into the vacuum of space, leaving you alone with your confusion. You decide to fly away from here.</text>
+	"How sad, isn't it? Well, he deserved his death, and he accepted it with dignity. I can't say the same about his biological brothers, who still cause me a lot of trouble, but now, dealing with them will be much easier. Thank you, Renegade, I'll take care of the rest myself. Farewell and depart." The drone gives you the reward and self-destructs. Its debris dissolve into the vacuum of space, leaving you alone with your confusion. You decide to fly away from here.</text>
 	<changeBackground>EG_SPACE_RIFT_BG_WIN</changeBackground>
 	<unlockCustomShip silent="false">PLAYER_EG_GEM_2</unlockCustomShip>
 	<metaVariable name="jester_win_gem" op="set" val="1"/>
@@ -445,7 +445,7 @@
 	</choice>
 </event>
 <event name="DESTROYED_EG_ENEMY_GEM_3">
-	<text>It seems you’ve dealt enough damage to the crystalline ship. Although its hull remained mostly intact, the giant central crystal suddenly ruptured while charging its next beam. The resulting explosion released a monstrous surge of energy, tearing apart the rest of the vessel in an instant. Hundreds of crystal shards shoot outward in every direction, yet somehow they all miss you as they scatter through space. You collect the largest fragments, hoping they’ll fetch a high price later. Among the debris, you also recover a few other resources that survived the blast. Along with them, you discover a small frame containing a photograph of three Crystalline-Sentinels — one of whom was the captain of the ship you just destroyed. The caption reads: "The Great Brothers, gem cutters of the School of Light Refraction. One history, one blood — forever."</text>
+	<text>It seems you’ve dealt enough damage to the crystalline ship. Although its hull remained mostly intact, the giant central crystal suddenly ruptured while charging its next beam. The resulting explosion released a monstrous surge of energy, tearing apart the rest of the vessel in an instant. Hundreds of crystal shards shoot outward in every direction, yet somehow they all miss you as they scatter through space. You collect the largest fragments, hoping they’ll fetch a high price later. Among the debris, you also recover a few other resources that survived the blast. Along with them, you discover a small frame containing a photograph of three Crystalline-Sentinels - one of whom was the captain of the ship you just destroyed. The caption reads: "The Great Brothers, gem cutters of the School of Light Refraction. One history, one blood - forever."</text>
 	<autoReward level="LOW">standard</autoReward>
 	<augment name="EG_GEM_SHARDS"/>
 	<choice hidden="true">
@@ -465,7 +465,7 @@
 <event name="SPACE_RIFT_GEM_3_WIN">
 	<text>After a while, the space anomaly seems to become less active and smaller. A strange-looking automatic drone in red and white colors with a gray eye flies up to you. You vaguely recognize it as one of the Miracle Seekers' delivery drones, but you don't know why this particular drone looks the way it does. It plays a pre-recorded message in the same synthetic male voice you heard earlier. 
 	
-	“How sad, isn't it? Well, he deserved his death, and he accepted it with dignity. I can't say the same about his biological brothers, who still cause me a lot of trouble, but now it will be much easier for me to deal with them. Thank you, Renegade, I'll take care of the rest myself. Farewell and depart." The drone gives you the reward and self-destructs. Its debris dissolve into the vacuum of space, leaving you alone with your confusion. You decide to fly away from here.</text>
+	"How sad, isn't it? Well, he deserved his death, and he accepted it with dignity. I can't say the same about his biological brothers, who still cause me a lot of trouble, but now it will be much easier for me to deal with them. Thank you, Renegade, I'll take care of the rest myself. Farewell and depart." The drone gives you the reward and self-destructs. Its debris dissolve into the vacuum of space, leaving you alone with your confusion. You decide to fly away from here.</text>
 	<changeBackground>EG_SPACE_RIFT_BG_WIN</changeBackground>
 	<unlockCustomShip silent="false">PLAYER_EG_GEM_3</unlockCustomShip>
 	<item_modify>
