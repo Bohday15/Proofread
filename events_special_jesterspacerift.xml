@@ -208,7 +208,7 @@
 <event name="SPACE_RIFT_DREAMSEEKER_WIN">
 	<text>After a while, the space anomaly seems to become less active and smaller. A strange-looking automatic drone in red and white colors with a gray eye flies up to you. You vaguely recognize it as one of the Miracle Seekers' delivery drones, but you don't know why this particular drone looks the way it does. It plays a pre-recorded message in the same synthetic male voice you heard earlier. 
 	
-	"Ha, they really got on my nerves with their endless sermons and prayers, poisoning the unique atmosphere of my abode with their sectarian nonsense. You may have questions about the Dreamer and her cult, but the fact is that she has been dead for a long time and can hardly help her followers. Any "miracles" that you may have witnessed during the battle with them were nothing more than pathetic attempts by her barely living soul to cling to something material. In any case, don't fill your head with such nonsense; there are no gods in your universe anyway... at least none that I'm aware of. Now... Farewell and depart." Drone gives you the reward and self-destructs. Its debris dissolve into the vacuum of space, leaving you alone with your confusion. You decide to fly away from here.</text>
+	"Ha, they really got on my nerves with their endless sermons and prayers, poisoning the unique atmosphere of my abode with their sectarian nonsense. You may have questions about the Dreamer and her cult, but the fact is that she has been dead for a long time and can hardly help her followers. Any "miracles" that you may have witnessed during the battle with them were nothing more than pathetic attempts by her barely living soul to cling to something material. In any case, don't fill your head with such nonsense; there are no gods in your universe anyway... at least none that I'm aware of. Now... Farewell and depart." The drone gives you the reward and self-destructs. Its debris dissolve into the vacuum of space, leaving you alone with your confusion. You decide to fly away from here.</text>
 	<changeBackground>EG_SPACE_RIFT_BG_WIN</changeBackground>
 	<unlockCustomShip silent="false">PLAYER_EG_DREAMSEEKER</unlockCustomShip>
 	<item_modify>
@@ -298,7 +298,7 @@
 <event name="SPACE_RIFT_REAPER_WIN">
 	<text>After a while, the space anomaly seems to become less active and smaller. A strange-looking automatic drone in red and white colors with a gray eye flies up to you. You vaguely recognize it as one of the Miracle Seekers' delivery drones, but you don't know why this particular drone looks the way it does. It plays a pre-recorded message in the same synthetic male voice you heard earlier. 
 	
-	"These individuals did not bother me much, although they did bother my other "roommates". They found this ship inside my dwelling, and for reason they decided to start searching for the Reapers, the robots who owned the ship before them. I had no contact with the Reapers, so even if I wanted to, I couldn't help them. In any case, thanks to you. They won't be bothering anyone else with their strange behavior anymore. And now... Farewell and depart." Drone gives you the reward and self-destructs. Its debris dissolve into the vacuum of space, leaving you alone with your confusion. You decide to fly away from here.</text>
+	"These individuals did not bother me much, although they did bother my other "roommates". They found this ship inside my dwelling, and for reason they decided to start searching for the Reapers, the robots who owned the ship before them. I had no contact with the Reapers, so even if I wanted to, I couldn't help them. In any case, thanks to you. They won't be bothering anyone else with their strange behavior anymore. And now... Farewell and depart." The drone gives you the reward and self-destructs. Its debris dissolve into the vacuum of space, leaving you alone with your confusion. You decide to fly away from here.</text>
 	<changeBackground>EG_SPACE_RIFT_BG_WIN</changeBackground>
 	<unlockCustomShip silent="false">PLAYER_EG_REAPER</unlockCustomShip>
 	<metaVariable name="jester_win_reaper" op="set" val="1"/>
@@ -318,7 +318,7 @@
 
 <event name="SPACE_RIFT_GEM_1">
 	<ship load="EG_ENEMY_GEM_1" hostile="false"/>
-	<text>A ship is approaching you from the anomaly, which, judging by all appearances, belongs to Crystallines. For a few seconds, nothing happens: the ship does not respond to your calls and does not send any of its own, but you notice that some kind of process is beginning to take place inside a large, faceted gemstone encrusted in the ship's hull. The onboard computer warns you: the energy inside begins to overflow, and judging by the fact that the ship has pointed its nozzle at you, it is about to attack you right now!
+	<text>A ship is approaching you from the anomaly, which, judging by all appearances, belongs to Crystalline Empire. For a few seconds, nothing happens: the ship does not respond to your calls and does not send any of its own, but you notice that some kind of process is beginning to take place inside a large, faceted gemstone encrusted in the ship's hull. The onboard computer warns you: the energy inside begins to overflow, and judging by the fact that the ship has pointed its nozzle at you, it is about to attack you right now!
 	
 	Suddenly, a powerful purple beam bursts out of the crystal and flies a couple of meters past your ship. There was no time to react. You also receive a call from the enemy ship.</text>
 	<choice hidden="true">
@@ -335,7 +335,7 @@
 </event>
 <event name="SPACE_RIFT_GEM_2">
 	<ship load="EG_ENEMY_GEM_2" hostile="false"/>
-	<text>A ship is approaching you from the anomaly, which, judging by all appearances, belongs to Crystallines. For a few seconds, nothing happens: the ship does not respond to your calls and does not send any of its own, but you notice that some kind of process is beginning to take place inside a large, faceted gemstone encrusted in the ship's hull. The onboard computer warns you: the energy inside begins to overflow, and judging by the fact that the ship has pointed its nozzle at you, it is about to attack you right now!
+	<text>A ship is approaching you from the anomaly, which, judging by all appearances, belongs to Crystalline Empire. For a few seconds, nothing happens: the ship does not respond to your calls and does not send any of its own, but you notice that some kind of process is beginning to take place inside a large, faceted gemstone encrusted in the ship's hull. The onboard computer warns you: the energy inside begins to overflow, and judging by the fact that the ship has pointed its nozzle at you, it is about to attack you right now!
 		
 	Suddenly, a powerful cyan beam bursts out of the crystal and flies a couple of meters past your ship. There was no time to react. You also receive a call from the enemy ship.</text>
 	<choice hidden="true">
@@ -352,7 +352,7 @@
 </event>
 <event name="SPACE_RIFT_GEM_3">
 	<ship load="EG_ENEMY_GEM_3" hostile="false"/>
-	<text>A ship is approaching you from the anomaly, which, judging by all appearances, belongs to Crystallines. For a few seconds, nothing happens: the ship does not respond to your calls and does not send any of its own, but you notice that some kind of process is beginning to take place inside a large, faceted gemstone encrusted in the ship's hull. The onboard computer warns you: the energy inside begins to overflow, and judging by the fact that the ship has pointed its nozzle at you, it is about to attack you right now!
+	<text>A ship is approaching you from the anomaly, which, judging by all appearances, belongs to Crystalline Empire. For a few seconds, nothing happens: the ship does not respond to your calls and does not send any of its own, but you notice that some kind of process is beginning to take place inside a large, faceted gemstone encrusted in the ship's hull. The onboard computer warns you: the energy inside begins to overflow, and judging by the fact that the ship has pointed its nozzle at you, it is about to attack you right now!
 		
 	Suddenly, a powerful reddish beam bursts out of the crystal and flies a couple of meters past your ship. There was no time to react. You also receive a call from the enemy ship.</text>
 	<choice hidden="true">
@@ -389,7 +389,7 @@
 <event name="SPACE_RIFT_GEM_1_WIN">
 	<text>After a while, the space anomaly seems to become less active and smaller. A strange-looking automatic drone in red and white colors with a gray eye flies up to you. You vaguely recognize it as one of the Miracle Seekers' delivery drones, but you don't know why this particular drone looks the way it does. It plays a pre-recorded message in the same synthetic male voice you heard earlier. 
 	
-	"How sad, isn't it? Well, he deserved his death, and he accepted it with dignity. I can't say the same about his biological brothers, who still cause me a lot of trouble, but now, dealing with them will be much easier.. Thank you, Renegade, I'll take care of the rest myself. Farewell and depart." Drone gives you the reward and self-destructs. Its debris dissolve into the vacuum of space, leaving you alone with your confusion. You decide to fly away from here.</text>
+	"How sad, isn't it? Well, he deserved his death, and he accepted it with dignity. I can't say the same about his biological brothers, who still cause me a lot of trouble, but now, dealing with them will be much easier.. Thank you, Renegade, I'll take care of the rest myself. Farewell and depart." The drone gives you the reward and self-destructs. Its debris dissolve into the vacuum of space, leaving you alone with your confusion. You decide to fly away from here.</text>
 	<changeBackground>EG_SPACE_RIFT_BG_WIN</changeBackground>
 	<unlockCustomShip silent="false">PLAYER_EG_GEM</unlockCustomShip>
 	<metaVariable name="jester_win_gem" op="set" val="1"/>
@@ -407,7 +407,7 @@
 	</choice>
 </event>
 <event name="DESTROYED_EG_ENEMY_GEM_2">
-	<text>It seems that you have inflicted enough damage on the crystalline ship, and although it remained intact, at some point its huge crystal burst while charging the next beam. Along with the explosion, which released a monstrous amount of energy, the rest of the ship, which was still intact at that moment, was also destroyed. Hundreds of crystal shards miraculously miss you as they fly in all directions through space. You collect the largest ones in the hope of selling them for a high price in the future. In addition to them, you find a few other resources in the wreckage of the ship that survived the explosion. Along with them, you find a small frame with a photograph inside, depicting three Crystalline-Sentinel, one of whom was the captain of the defeated ship. The photograph is captioned: "The great brothers, the gem cutters of the school of light refraction. One history, one blood - forever."</text>
+	<text>It seems you’ve dealt enough damage to the crystalline ship. Although its hull remained mostly intact, the giant central crystal suddenly ruptured while charging its next beam. The resulting explosion released a monstrous surge of energy, tearing apart the rest of the vessel in an instant. Hundreds of crystal shards shoot outward in every direction, yet somehow they all miss you as they scatter through space. You collect the largest fragments, hoping they’ll fetch a high price later. Among the debris, you also recover a few other resources that survived the blast. Along with them, you discover a small frame containing a photograph of three Crystalline-Sentinels — one of whom was the captain of the ship you just destroyed. The caption reads: "The Great Brothers, gem cutters of the School of Light Refraction. One history, one blood — forever."</text>
 	<autoReward level="LOW">standard</autoReward>
 	<augment name="EG_GEM_SHARDS"/>
 	<choice hidden="true">
@@ -416,7 +416,7 @@
 	</choice>
 </event>
 <event name="DEAD_CREW_EG_ENEMY_GEM_2">
-	<text>You get rid of the crew of the Crystalline ship. Crystalline-Sentinel, the former captain of this ship, looks at you with indescribable malice as he sits on the floor, leaning against the wall. "You managed to defeat me, Renegade... well done. But there, inside this hell... there are still two of my brothers left. You cannot kill me as long as I share their blood." With these words, he suddenly pulls out a blaster and shoots himself in the chest, piercing his heart. You are convinced that there was no other option, and order your team to search the ship for valuables. In addition to the supplies you find, upon returning to your ship, you shoot off a piece of a precious stone and take its fragments with you to sell them for a high price in the future.</text>
+	<text>You get rid of the crew of the Crystalline ship. Crystalline-Sentinel, the former captain of this ship, looks at you with indescribable malice as he sits on the floor, leaning against the wall. "You managed to defeat me, Renegade... well done. But there, inside this hell... there are still two of my brothers left. You cannot kill me as long as I share their blood." With these words, he suddenly pulls out a blaster and shoots himself in the chest, exploding heart. You are convinced that there was no other outcome, and order your team to search the ship for valuables. In addition to the supplies you find, upon returning to your ship, you blast off a piece of the precious stone and take its fragments with you to possibly sell them for a high price in the future.</text>
 	<autoReward level="MED">standard</autoReward>
 	<augment name="EG_GEM_SHARDS"/>
 	<choice hidden="true">
@@ -427,7 +427,7 @@
 <event name="SPACE_RIFT_GEM_2_WIN">
 	<text>After a while, the space anomaly seems to become less active and smaller. A strange-looking automatic drone in red and white colors with a gray eye flies up to you. You vaguely recognize it as one of the Miracle Seekers' delivery drones, but you don't know why this particular drone looks the way it does. It plays a pre-recorded message in the same synthetic male voice you heard earlier. 
 	
-	“How sad, isn't it? Well, he deserved his death, and he accepted it with dignity. I can't say the same about his biological brothers, who still cause me a lot of trouble, but now, dealing with them will be much easier. Thank you, Renegade, I'll take care of the rest myself. Farewell and depart." Drone gives you the reward and self-destructs. Its debris dissolve into the vacuum of space, leaving you alone with your confusion. You decide to fly away from here.</text>
+	“How sad, isn't it? Well, he deserved his death, and he accepted it with dignity. I can't say the same about his biological brothers, who still cause me a lot of trouble, but now, dealing with them will be much easier. Thank you, Renegade, I'll take care of the rest myself. Farewell and depart." The drone gives you the reward and self-destructs. Its debris dissolve into the vacuum of space, leaving you alone with your confusion. You decide to fly away from here.</text>
 	<changeBackground>EG_SPACE_RIFT_BG_WIN</changeBackground>
 	<unlockCustomShip silent="false">PLAYER_EG_GEM_2</unlockCustomShip>
 	<metaVariable name="jester_win_gem" op="set" val="1"/>
@@ -445,7 +445,7 @@
 	</choice>
 </event>
 <event name="DESTROYED_EG_ENEMY_GEM_3">
-	<text>It seems that you have inflicted enough damage on the crystalline ship, and although it remained intact, at some point its huge crystal burst while charging the next beam. Along with the explosion, which released a monstrous amount of energy, the rest of the ship, which was still intact at that moment, was also destroyed. Hundreds of crystal shards miraculously miss you as they fly in all directions through space. You collect the largest ones in the hope of selling them for a high price in the future. In addition to them, you find a few other resources in the wreckage of the ship that survived the explosion. Along with them, you find a small frame with a photograph inside, depicting three Crystalline-Sentinel, one of whom was the captain of the defeated ship. The photograph is captioned: "The great brothers, the gem cutters of the school of light refraction. One history, one blood - forever."</text>
+	<text>It seems you’ve dealt enough damage to the crystalline ship. Although its hull remained mostly intact, the giant central crystal suddenly ruptured while charging its next beam. The resulting explosion released a monstrous surge of energy, tearing apart the rest of the vessel in an instant. Hundreds of crystal shards shoot outward in every direction, yet somehow they all miss you as they scatter through space. You collect the largest fragments, hoping they’ll fetch a high price later. Among the debris, you also recover a few other resources that survived the blast. Along with them, you discover a small frame containing a photograph of three Crystalline-Sentinels — one of whom was the captain of the ship you just destroyed. The caption reads: "The Great Brothers, gem cutters of the School of Light Refraction. One history, one blood — forever."</text>
 	<autoReward level="LOW">standard</autoReward>
 	<augment name="EG_GEM_SHARDS"/>
 	<choice hidden="true">
@@ -454,7 +454,7 @@
 	</choice>
 </event>
 <event name="DEAD_CREW_EG_ENEMY_GEM_3">
-	<text>You get rid of the crew of the Crystalline ship. Crystalline-Sentinel, the former captain of this ship, looks at you with indescribable malice as he sits on the floor, leaning against the wall. "You managed to defeat me, Renegade... well done. But there, inside this hell... there are still two of my brothers left. You cannot kill me as long as I share their blood." With these words, he suddenly pulls out a blaster and shoots himself in the chest, piercing his heart. You are convinced that there was no other option, and order your team to search the ship for valuables. In addition to the supplies you find, upon returning to your ship, you shoot off a piece of a precious stone and take its fragments with you to sell them for a high price in the future.</text>
+	<text>You get rid of the crew of the Crystalline ship. Crystalline-Sentinel, the former captain of this ship, looks at you with indescribable malice as he sits on the floor, leaning against the wall. "You managed to defeat me, Renegade... well done. But there, inside this hell... there are still two of my brothers left. You cannot kill me as long as I share their blood." With these words, he suddenly pulls out a blaster and shoots himself in the chest, exploding heart. You are convinced that there was no other outcome, and order your team to search the ship for valuables. In addition to the supplies you find, upon returning to your ship, you blast off a piece of the precious stone and take its fragments with you to possibly sell them for a high price in the future.</text>
 	<autoReward level="MED">standard</autoReward>
 	<augment name="EG_GEM_SHARDS"/>
 	<choice hidden="true">
@@ -465,7 +465,7 @@
 <event name="SPACE_RIFT_GEM_3_WIN">
 	<text>After a while, the space anomaly seems to become less active and smaller. A strange-looking automatic drone in red and white colors with a gray eye flies up to you. You vaguely recognize it as one of the Miracle Seekers' delivery drones, but you don't know why this particular drone looks the way it does. It plays a pre-recorded message in the same synthetic male voice you heard earlier. 
 	
-	“How sad, isn't it? Well, he deserved his death, and he accepted it with dignity. I can't say the same about his biological brothers, who still cause me a lot of trouble, but now it will be much easier for me to deal with them. Thank you, Renegade, I'll take care of the rest myself. Farewell and depart." Drone gives you the reward and self-destructs. Its debris dissolve into the vacuum of space, leaving you alone with your confusion. You decide to fly away from here.</text>
+	“How sad, isn't it? Well, he deserved his death, and he accepted it with dignity. I can't say the same about his biological brothers, who still cause me a lot of trouble, but now it will be much easier for me to deal with them. Thank you, Renegade, I'll take care of the rest myself. Farewell and depart." The drone gives you the reward and self-destructs. Its debris dissolve into the vacuum of space, leaving you alone with your confusion. You decide to fly away from here.</text>
 	<changeBackground>EG_SPACE_RIFT_BG_WIN</changeBackground>
 	<unlockCustomShip silent="false">PLAYER_EG_GEM_3</unlockCustomShip>
 	<item_modify>
@@ -485,11 +485,11 @@
 
 <event name="SPACE_RIFT_ROBUR">
 	<ship load="EG_ENEMY_ROBUR" hostile="false"/>
-	<text>A strangely colored ship is rushing toward you from the anomaly. Its hull appears to be very thick and difficult to penetrate, but it has a lot of damage, and when you notice that the stern of the ship is made entirely of some kind of biological components, you feel uneasy. It seems that it has spent a lot of time inside that anomaly, constantly fighting someone, and only the thick hull of its ship was able to save it from destruction. When you accept the ship's request for contact, you see a very agitated boulder with a crazy look on its face on the screen. It immediately starts shouting into the communication system. "OH MY GOD! ANOTHER LIVING BEING! YOU WON'T BELIEVE WHAT'S HAPPENING HERE! GET OUT OF HERE, IT'S NOT SAFE, OR HE'LL DRAG YOU INTO HIS MACHINATIONS!" It's obvious that the captain is not himself; he thinks he's still inside the space rift. You have a choice: ease his suffering and receive a reward, or fly away from here before things get even stranger, but then you will have nothing but wasted time.</text>
+	<text>A strangely colored ship is rushing toward you from the anomaly. Its hull appears to be very thick and difficult to penetrate, but it has already suffered a lot of damage. You start feeling uneasy when you notice that the rear of the ship is entirely made of some kind of biological components. It seems it spent a great deal of time inside that anomaly, constantly fighting something. Only the thick hull of its ship kept it from destruction. When you accept the ship’s hail, the screen reveals a very agitated boulder with a crazy look on his face. He immediately starts shouting into the communication system: "OH MY GOD! ANOTHER LIVING BEING! YOU WON’T BELIEVE WHAT’S HAPPENING HERE! GET OUT OF HERE, IT’S NOT SAFE - HE’LL DRAG YOU INTO HIS SCHEMES!" It’s clear the captain is not in his right mind; he still believes he’s trapped inside the space rift. You now have a choice: ease his suffering and receive a reward, or fly away before things get even stranger, but if you leave, you’ll gain nothing except lost time.</text>
 	<choice hidden="true">
 		<text>Attack and end the madman's sufferings.</text>
 		<event>
-			<text>You begin to charge your weapons. "WHAT ARE YOU DOING?.. OH, I THINK I UNDERSTAND. YOU'RE THE MINION OF THAT CREATURE WHO HAS FINALLY DECIDED TO KILL ME WITH THE HELP OF OTHERS! COME ON, SHOW ME WHAT YOU'RE CAPABLE OF! NO ONE HERE HAS EVER BEEN ABLE TO DEFEAT THE GREAT ROBUR!"</text>
+			<text>You begin to charge your weapons. "WHAT ARE YOU DOING?.. OH, I THINK I UNDERSTAND. YOU'RE THE MINION OF THAT CREATURE WHO HAS FINALLY DECIDED TO KILL ME THROUGH OTHERS! COME ON THEN, SHOW ME WHAT YOU'RE MADE OF! NO ONE HERE HAS EVER BEEN ABLE TO DEFEAT THE GREAT ROBUR!"</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
 				<text>Continue...</text>
@@ -518,7 +518,7 @@
 	</choice>
 </event>
 <event name="DESTROYED_EG_ENEMY_ROBUR">
-	<text>You have defeated this sturdy ship and its captain. Before the ship explodes, the captain calls out to you one last time: "YOU CAN'T EVEN IMAGINE WHO YOU ARE HELPING! HE IS NOT-..." The captain's words are cut off by the inevitable destruction and depressurization of the ship. While waiting to receive your reward for your actions, you order your crew to dismantle the ship for scrap. You also manage to detach a piece of armor plate from his ship.</text>
+	<text>You have defeated the sturdy ship and its captain. Before the ship explodes, the captain calls out to you one last time: "YOU CAN'T EVEN IMAGINE WHO YOU ARE HELPING! HE IS NOT-..." The captain's words are cut off by the destruction and depressurization of the ship. While waiting to receive the reward for your actions, you order your crew to dismantle the ship for scrap. You also manage to detach a piece of armor plate from his ship.</text>
 	<autoReward level="MED">standard</autoReward>
 	<augment name="EG_ROBUR_ARMOR"/>
 	<choice hidden="true">
@@ -527,7 +527,7 @@
 	</choice>
 </event>
 <event name="DEAD_CREW_EG_ENEMY_ROBUR">
-	<text>You have defeated the crew of this sturdy vessel and its captain. Spitting out his blood and lying on the floor with multiple wounds, the ship's captain still tries to fight back, but cannot even move. He says, "He's not who he claims to be... just... an imitator..." Eventually, his eyes close and he dies. You order your crew to dismantle the ship for scrap, after taking all valuables from it. You also manage to detach a piece of armor plate from his ship.</text>
+	<text>You have defeated the crew of this sturdy vessel and its captain. Spitting blood and lying on the floor, riddled with wounds, the ship’s captain still tries to resist, though he can no longer move. With his last remaining strength, he murmours: "He’s not who he claims to be… just… an imitator…" His eyes slowly close, and he dies. You order your crew to dismantle the ship for scrap, after taking all valuables from it. You also manage to detach a piece of armor plate from his ship.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<augment name="EG_ROBUR_ARMOR"/>
 	<choice hidden="true">
@@ -538,7 +538,7 @@
 <event name="SPACE_RIFT_ROBUR_WIN">
 	<text>After a while, the space anomaly seems to become less active and smaller. A strange-looking automatic drone in red and white colors with a gray eye flies up to you. You vaguely recognize it as one of the Miracle Seekers' delivery drones, but you don't know why this particular drone looks the way it does. It plays a pre-recorded message in the same synthetic male voice you heard earlier. 
 	
-	"Oh, poor Robur... Don't worry about him, I suppose he deserved his fate. During his lifetime, he was one of the most stubborn boulders I have ever met. I cannot help but notice that, thanks to my gift, he may have stayed in my abode much longer than the others, and this had a negative effect on his psyche. Now that all issues have been resolved, I no longer require your assistance. Farewell, and depart." Drone gives you the reward and self-destructs. Its debris dissolve into the vacuum of space, leaving you alone with your confusion. You decide to fly away from here.</text>
+	"Oh, poor Robur... Don't worry about him, he earned his fate. During his lifetime, he was one of the most stubborn boulders I have ever encountered. I cannot help but notice that, thanks to my gift, he may have stayed in my abode far longer than the others, and this might have left negative effects on his psyche. Now that the issue has been resolved, I no longer require your assistance. Farewell, and depart." The drone gives you the reward and self-destructs. Its debris dissolve into the vacuum of space, leaving you alone with your confusion. You decide to fly away from here.</text>
 	<changeBackground>EG_SPACE_RIFT_BG_WIN</changeBackground>
 	<unlockCustomShip silent="false">PLAYER_EG_ROBUR</unlockCustomShip>
 	<item_modify>
@@ -580,7 +580,7 @@
 </event>
 
 <event name="DREAMSEEKER_PRAYER_ENEMY_SYSTEM_DAMAGE_VERYBAD">
-	<text>Fanatics have finished their prayer. It seems they asked their goddess to harm you, because a blue beam of light suddenly pierces your ship's hull, appearing out of nowhere! Fortunately, it wasn't powerful enough to damage the hull directly: instead, it started fires and created many breaches!</text>
+	<text>Fanatics have finished their prayer. It seems they have asked their goddess to harm you. A blue beam of light suddenly pierces the hull of your ship! Fortunately, it wasn't powerful enough to damage the hull directly: instead, it started fires and created breaches!</text>
 	<damage amount="0" system="random" effect="breach" damageHull="false"/>
 	<damage amount="0" system="random" effect="breach" damageHull="false"/>
 	<damage amount="0" system="random" effect="breach" damageHull="false"/>
@@ -588,13 +588,13 @@
 	<damage amount="0" system="random" effect="fire" damageHull="false"/>
 </event>
 <event name="DREAMSEEKER_PRAYER_ENEMY_SYSTEM_DAMAGE_FIRE">
-	<text>Fanatics have finished their prayer. It seems they have asked their goddess to harm you, because a blue beam of light suddenly pierces the hull of your ship, appearing out of nowhere and igniting a fire in several of the ship's systems!</text>
+	<text>Fanatics have finished their prayer. It seems they have asked their goddess to harm you. A blue beam of light suddenly pierces the hull of your ship. It has set fire to several systems on your ship!</text>
 	<damage amount="0" system="random" effect="fire" damageHull="false"/>
 	<damage amount="0" system="random" effect="fire" damageHull="false"/>
 	<damage amount="0" system="random" effect="fire" damageHull="false"/>
 </event>
 <event name="DREAMSEEKER_PRAYER_ENEMY_CREW">
-	<text>Fanatics have finished their prayer. It seems they asked their goddess for help, because a couple of enemies appear on board your ship out of nowhere!</text>
+	<text>Fanatics have finished their prayer. It seems they asked their goddess for help. A couple of enemies appear on board of your ship!</text>
 	<boarders min="2" max="3" class="random"/>
 </event>
 <event name="DREAMSEEKER_PRAYER_ENEMY_HULL_REPAIR_5">
